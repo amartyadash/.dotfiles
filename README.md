@@ -28,6 +28,9 @@ dotfiles add .tmux.conf
 dotfiles commit -m "Add .tmux.conf"
 dotfiles push origin master
 ```
+To backup gnome terminal settings, run the following line:
+
+`dconf dump /org/gnome/terminal/ > gnome_terminal_settings_backup.txt`
 # Setting up a new machine
 To set up a new machine to use your version controlled config files, all you need to do is to clone the repository on your new machine telling git that it is a bare repository:
 
@@ -40,3 +43,7 @@ git clone --separate-git-dir=$HOME/.dotfiles https://github.com/[yourusername]/.
 rsync --recursive --verbose --exclude '.git' tmpdotfiles/ $HOME/
 rm -r tmpdotfiles
 ```
+To add gnome terminal settings run the following line:
+
+`dconf load /org/gnome/terminal/ < gnome_terminal_settings_backup.txt`
+
