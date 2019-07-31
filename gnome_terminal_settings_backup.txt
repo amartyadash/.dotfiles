@@ -1,0 +1,19 @@
+[legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+foreground-color='rgb(170,170,170)'
+cjk-utf8-ambiguous-width='narrow'
+visible-name='Arc + Faba'
+palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(42,190,58)', 'rgb(229,178,20)', 'rgb(38,139,210)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(238,232,213)', 'rgb(92,205,237)', 'rgb(203,75,22)', 'rgb(88,110,117)', 'rgb(101,123,131)', 'rgb(131,148,150)', 'rgb(108,113,196)', 'rgb(147,161,161)', 'rgb(253,246,227)']
+cursor-shape='block'
+use-system-font=false
+use-theme-colors=false
+use-transparent-background=true
+font='UbuntuMono Nerd Font Mono 14'
+use-theme-transparency=false
+bold-color-same-as-fg=true
+bold-color='rgb(86,212,39)'
+background-color='rgb(35,35,35)'
+background-transparency-percent=4
+scrollbar-policy='never'
+
+[legacy]
+schema-version=uint32 3
