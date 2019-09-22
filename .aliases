@@ -18,4 +18,8 @@ alias sscan="sudo nmap -sP $(echo $(hostname -I)/24 | tr -d \"\ \")"
 alias unity-control-center="XDG_CURRENT_DESKTOP=Unity unity-control-center"
 alias wifi="wicd-gtk"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias masdis="roslaunch fkie_master_discovery master_discovery.launch"
+alias massyn="roslaunch fkie_master_sync master_sync.launch "
+alias dark="xdotool key Shift+F10 r Return Return"
+alias light="xdotool key Shift+F10 r Down Return Return"
 

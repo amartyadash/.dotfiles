@@ -4,6 +4,7 @@
 # Path to your oh-my-zsh installation.
 export TERM="xterm-256color" 
 export ZSH="/home/amartya/.oh-my-zsh"
+export PATH="/usr/lib/ccache:$PATH"
 
 
 
@@ -151,7 +152,10 @@ POWERLEVEL9K_FOLDER_ICON=''
 POWERLEVEL9K_STATUS_VERBOSE=true
 POWERLEVEL9K_STATUS_CROSS=true
 source ~/.aliases
+alias masdis="roslaunch fkie_master_discovery master_discovery.launch"
 
+alias massyn="roslaunch fkie_master_sync master_sync.launch"
 source /opt/ros/kinetic/setup.zsh
 source /home/amartya/catkin_ws/devel/setup.zsh
+export EDITOR='code'
 
