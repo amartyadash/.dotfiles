@@ -47,3 +47,28 @@ To add gnome terminal settings run the following line:
 
 `dconf load /org/gnome/terminal/ < gnome_terminal_settings_backup.txt`
 
+# i3-gaps installation
+```
+sudo add-apt-repository ppa:kgilmer/speed-ricer
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install i3-gaps
+```
+Open the ~/.config/i3/config file and add these lines:
+
+```
+gaps inner 10
+gaps outer 0
+smart_gaps on
+```
+# i3blocks
+```
+git clone https://github.com/vivien/i3blocks
+cd i3blocks
+./autogen.sh
+./configure
+make
+make install
+```
+Clone [i3blocks-contrib repo](https://github.com/vivien/i3blocks-contrib) in the home directory.
+
