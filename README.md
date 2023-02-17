@@ -5,6 +5,7 @@ https://www.anand-iyer.com/blog/2018/a-simpler-way-to-manage-your-dotfiles.html
 
 https://www.atlassian.com/git/tutorials/dotfiles
 # First time setup
+Install tmux, zsh, git before proceeding
 ```
 mkdir $HOME/.dotfiles
 git init --bare $HOME/.dotfiles
